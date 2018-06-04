@@ -4,7 +4,7 @@ html {
 }
 body {
   font-family: 'Roboto', sans-serif;
-  padding-top: 128px; 
+  padding-top: 96px; 
   font-size: 16px;
   color: #212529;
   background-color: #fff;
@@ -18,23 +18,29 @@ body.home {
   background-color: #fff; 
   padding-top: 0;
   box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.09019607843);
+  padding-bottom: 0;
 }
 body.home .navbar {
   background-color: transparent;
   position: absolute;
   box-shadow: none;
+  /* padding-bottom:  */
 }
 .navbar .navbar-brand {
   background: url('../images/header-logo.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #fff;
-  background-size: 98px;
+  background-size: 80px;
   border-radius: 0 0 3px 3px;
   width: 120px;
-  height: 120px;
+  height: 96px;
   display: block;
   text-indent: -9999px;
+}
+body.home .navbar .navbar-brand {
+  background-size: 98px;
+  height: 120px;
 }
 .navbar .dropdown-toggle::after {
   display: none;
@@ -88,6 +94,7 @@ body.home .active a.nav-link {
   display: block;
   text-shadow: 1px 0 7px #3333339e;
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .intro-hero p {
@@ -150,14 +157,16 @@ a.button.dark {
   color: #fff;
 }
 
+h1, h2 {
+  font-family: 'Roboto Slab', serif;
+  color: #353b40;
+}
+
 /* ABOUT US */
 .about-us .page-header h1 {
   color: #fff; 
 }
-.about-us h1, h2 {
-  font-family: 'Roboto Slab', serif;
-  color: #353b40;
-}
+
 .about-us h2 {
   margin: 30px 0 15px;
 }
@@ -204,3 +213,10 @@ a.button.dark {
   padding: 20px;
 }*/
 
+.program-information h2 {
+  margin: 50px 0 20px 0;
+}
+.program-information p {
+  line-height: 26px;
+  color: #4a4f54;
+}
