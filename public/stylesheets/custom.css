@@ -22,7 +22,7 @@ body.home {
 }
 
 .navbar .navbar-brand {
-  background: url(../images/logo.png);
+  background-image: url(../images/logo.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #fff;
@@ -32,6 +32,14 @@ body.home {
   height: 76px;
   display: block;
   text-indent: -9999px;
+
+  @media all and (-webkit-min-device-pixel-ratio : 1.5),
+   all and (-o-min-device-pixel-ratio: 3/2),
+   all and (min--moz-device-pixel-ratio: 1.5),
+   all and (min-device-pixel-ratio: 1.5) {
+   
+    background-image: url(../images/logo@2x.png);
+  }
 }
 .navbar .dropdown-toggle::after {
   display: none;
