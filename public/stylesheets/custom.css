@@ -98,21 +98,21 @@ a.button {
 }
 
 .our-approach-area {
-    background: url('../images/our-approach-bg.png');
-    background-position: center right;
-    min-height: 600px;
-    background-size: cover;
-    padding-top: 80px;
+  background: url('../images/our-approach-bg.png');
+  background-position: center right;
+  min-height: 500px;
+  background-size: cover;
+  padding-top: 80px;
 }
 
 .our-approach-area h2 {
-    font-weight: 900;
-    margin-bottom: 20px;
+  font-weight: 900;
+  margin-bottom: 20px;
 }
 
 .our-approach-area p {
-    line-height: 26px;
-    margin-bottom: 50px;
+  line-height: 26px;
+  margin-bottom: 50px;
 }
 
 a.button.dark {
@@ -173,15 +173,16 @@ h1, h2, h3, h4, h5 {
   max-width: 100%;
 }
 .home a.home-link span {
-  width: 200px;
+  width: 160px;
   position: absolute;
-  bottom: -10px;
-  right: -10px;
+  bottom: -5px;
+  right: -5px;
   background-color: #EE9F37;
   color: #fff;
-  font-size: 30px;
+  font-size: 24px;
   padding: 10px;
   font-family: 'Roboto Slab', serif;
+  line-height: 28px;
 }
 .home a.home-link:hover span {
   background-color: #00A4CE;
@@ -261,6 +262,9 @@ h1, h2, h3, h4, h5 {
 .admissions p, .admissions ul li {
   line-height: 26px;
   color: #4a4f54;
+}
+.admissions .table ul {
+  padding-left: 20px;
 }
 
 .contact-us h2 {
