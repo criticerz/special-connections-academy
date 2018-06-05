@@ -157,7 +157,7 @@ a.button.dark {
   color: #fff;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5 {
   font-family: 'Roboto Slab', serif;
   color: #353b40;
 }
@@ -220,3 +220,34 @@ h1, h2 {
   line-height: 26px;
   color: #4a4f54;
 }
+
+.admissions h2 {
+  margin: 50px 0 20px 0;
+}
+.admissions p, .admissions ul li {
+  line-height: 26px;
+  color: #4a4f54;
+}
+
+.contact-us h2 {
+  margin: 50px 0 20px 0;
+}
+.contact-us p {
+  line-height: 26px;
+  color: #4a4f54;
+}
+
+.donate h2 {
+  margin: 50px 0 20px 0;
+}
+.donate h3 {
+  margin: 20px 0 20px 0;
+}
+.donate p {
+  line-height: 26px;
+  color: #4a4f54;
+}
+
+
+
+

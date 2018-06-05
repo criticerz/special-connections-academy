@@ -35,28 +35,28 @@
           </div>
         </li>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admissions</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#">Who we serve</a>
-            <a class="dropdown-item" href="#">How to apply</a>
-            <a class="dropdown-item" href="#">Schedule a tour</a>
+        <li class="nav-item <%- page == 'admissions' ? 'active' : '' %> dropdown">
+          <a class="nav-link dropdown-toggle" href="/admissions">Admissions</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/admissions#who-we-serve">Who we serve</a>
+            <a class="dropdown-item" href="/admissions#how-to-apply">How to apply</a>
+            <a class="dropdown-item" href="/admissions#schedule-a-tour">Schedule a tour</a>
           </div>
         </li>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#">Map / Contact Info</a>
-            <a class="dropdown-item" href="#">Join our team</a>
+        <li class="nav-item <%- page == 'contact-us' ? 'active' : '' %> dropdown">
+          <a class="nav-link dropdown-toggle" href="/contact-us">Contact</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/contact-us">Map / Contact Info</a>
+            <a class="dropdown-item" href="/contact-us#join-our-team">Join our team</a>
           </div>
         </li>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Donate</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#">Donate</a>
-            <a class="dropdown-item" href="#">Our special connections</a>
+        <li class="nav-item <%- page == 'donate' ? 'active' : '' %> dropdown">
+          <a class="nav-link dropdown-toggle" href="/donate">Donate</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/donate">Donate</a>
+            <a class="dropdown-item" href="/donate#our-special-connections">Our special connections</a>
           </div>
         </li>
 

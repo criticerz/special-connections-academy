@@ -14,6 +14,18 @@ router.get('/program-information', function(req, res, next) {
   res.render('pages/program-information', { page: 'program-information', title: 'Program Informaton' });
 });
 
+router.get('/admissions', function(req, res, next) {
+  res.render('pages/admissions', { page: 'admissions', title: 'Admissions' });
+});
+
+router.get('/contact-us', function(req, res, next) {
+  res.render('pages/contact-us', { page: 'contact-us', title: 'Contact Us' });
+});
+
+router.get('/donate', function(req, res, next) {
+  res.render('pages/donate', { page: 'donate', title: 'Donate' });
+});
+
 // router.get('/program-information', function(req, res, next) {
 //   res.render('pages/program-information', { page: 'program-information', title: 'Program Information' });
 // });
